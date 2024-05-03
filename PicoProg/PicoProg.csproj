@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Platforms>AnyCPU;x86</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="MCCP2210_TOOLS">
+      <HintPath>..\..\MCCP2210_TOOLS\MCCP2210_TOOLS\bin\x86\Debug\net8.0\MCCP2210_TOOLS.dll</HintPath>
+    </Reference>
+    <Reference Include="mcp2210_dll_m_dotnetv4_x86">
+      <HintPath>..\..\..\..\Desktop\mcp2210_dll_v2.1.0\managed\MCP2210DLL_M_dotNet4\x86\mcp2210_dll_m_dotnetv4_x86.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
