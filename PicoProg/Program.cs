@@ -75,6 +75,8 @@ namespace PicoProg
             }
 
             Console.WriteLine("\n>> Done!\n");
+
+            FTDI.setPin(2, true);
         }
 
         static void AwaitIdle(FTDI_2210 FTDI)
